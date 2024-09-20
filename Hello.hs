@@ -7,3 +7,6 @@ zero f x = x
 
 one :: Church
 one f x = f x
+
+two :: Church
+two f x = f (f x)
